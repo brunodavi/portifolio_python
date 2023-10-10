@@ -1,0 +1,1 @@
+from portifolio_python.components.image_static import image_static
