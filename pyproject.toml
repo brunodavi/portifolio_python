@@ -1,6 +1,6 @@
 [project]
 name = "portifolio_python"
-version = "0.1.0"
+version = "0.2.2"
 description = "Um simples portifólio feito com python + streamlit"
 authors = [
     {name = "Bruno Davi", email = "48166556+brunodavi@users.noreply.github.com"},
