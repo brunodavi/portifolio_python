@@ -94,7 +94,7 @@
 # If there are no options left, hide the menu.
 
 # Default: "auto"
-toolbarMode = "developer"
+# toolbarMode = "auto"
 
 
 [runner]
