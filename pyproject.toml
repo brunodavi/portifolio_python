@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "portifolio-python"
-version = "1.2.2"
+version = "1.2.3"
 description = "Um simples portifólio em python + streamlit"
 authors = ["Bruno Davi <48166556+brunodavi@users.noreply.github.com>"]
 license = "GNU"
