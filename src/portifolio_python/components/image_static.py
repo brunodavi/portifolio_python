@@ -1,6 +1,8 @@
+from functools import cache
 import streamlit as st
 
 
+@cache
 def image_static(
         label: str,
         link: str,

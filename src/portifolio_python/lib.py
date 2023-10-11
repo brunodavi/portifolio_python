@@ -1,7 +1,5 @@
 from re import findall
 from functools import cache
-from threading import Timer
-
 
 
 import requests

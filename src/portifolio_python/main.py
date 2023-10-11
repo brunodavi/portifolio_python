@@ -1,6 +1,6 @@
 import streamlit as st
 
-from portifolio_python.lib import get_pins_from_html
+from portifolio_python.lib import get_pins_from_html_stream, get_pins_from_api
 from portifolio_python.components import image_static
 
 
@@ -81,13 +81,16 @@ e trabalhando em APIs back-end (FastAPI, Express, MySQL, Mongo).
 - React
 - Docker
 - RESTful API
-
-
-### Projetos Fixados
 '''
 
+with st.spinner('Carregando meus projetos...'):
+    repos = get_pins_from_html_stream(GH_USER_URL)
 
-for repo in get_pins_from_html(GH_USER_URL):
-    st.markdown(
-        f'- [{repo}]({GH_USER_URL}/{repo})'
-    )
+    '''
+    ### Projetos Fixados
+    '''
+
+    for repo in repos:
+        st.markdown(
+            f'- [{repo}]({GH_USER_URL}/{repo})'
+        )
