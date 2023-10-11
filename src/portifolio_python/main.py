@@ -1,6 +1,6 @@
 import streamlit as st
 
-from portifolio_python.lib import get_pins_from_html_stream, get_pins_from_api
+from portifolio_python.lib import get_pins_from_html_stream
 from portifolio_python.components import image_static
 
 
@@ -13,7 +13,6 @@ LK_USER_URL = f'https://linkedin.com/in/{USER_NAME}'
 
 EMAIL_URL = f'mailto:{EMAIL}'
 WA_CHAT = 'https://wa.me/5511987364471'
-
 
 
 with st.sidebar:
